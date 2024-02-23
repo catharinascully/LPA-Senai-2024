@@ -15,6 +15,12 @@ programa
 		{
 			escreva(vetor[p], " ")
 		}
+		// vamos exibir os mesmo valores do vetor na ordem inversa
+		escreva("\nVetor na ordem inversa: \n")
+		para (inteiro p = 9; p >= 0; p--)
+		{
+			escreva(vetor[p], " ")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,9 +28,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 458; 
+ * @POSICAO-CURSOR = 563; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
